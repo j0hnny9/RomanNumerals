@@ -57,11 +57,9 @@ public class TestRomanNumerals {
 		assertEquals('I', digits[0]);
 	}
 	
-	/*
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testRN_combineRNIII() {
+		fail();
 	}
-	*/
 
 }

@@ -253,3 +253,19 @@ RefactoringAction 1475242705912 RomanNumerals.java RENAME combineEqualDigits()=>
 RefactoringAction 1475242783674 RomanNumerals.java ADD import java.util.List IMPORT
 RefactoringAction 1475242808800 RomanNumerals.java ADD import java.util.LinkedList IMPORT
 EditAction 1475243601439 RomanNumerals.java 1459 4 10 0
+UnitTestCaseAction 1475243601783 TestRomanNumerals.java OK
+UnitTestSessionAction 1475243601783 TestRomanNumerals.java OK
+RefactoringAction 1475243612222 TestRomanNumerals.java ADD void test() METHOD
+RefactoringAction 1475243618745 TestRomanNumerals.java RENAME test()=>void testRN_() METHOD
+RefactoringAction 1475243623752 TestRomanNumerals.java RENAME testRN_()=>void testRN_com() METHOD
+RefactoringAction 1475243625263 TestRomanNumerals.java RENAME testRN_com()=>void testRN_comb() METHOD
+RefactoringAction 1475243627274 TestRomanNumerals.java RENAME testRN_comb()=>void testRN_combine() METHOD
+RefactoringAction 1475243633788 TestRomanNumerals.java RENAME testRN_combine()=>void testRN_combineT() METHOD
+RefactoringAction 1475243634798 TestRomanNumerals.java RENAME testRN_combineT()=>void testRN_combine() METHOD
+RefactoringAction 1475243639812 TestRomanNumerals.java RENAME testRN_combine()=>void testRN_combineThree() METHOD
+RefactoringAction 1475243644323 TestRomanNumerals.java RENAME testRN_combineThree()=>void testRN_combineIII() METHOD
+RefactoringAction 1475243645336 TestRomanNumerals.java RENAME testRN_combineIII()=>void testRN_combineIII_() METHOD
+RefactoringAction 1475243647847 TestRomanNumerals.java RENAME testRN_combineIII_()=>void testRN_combine() METHOD
+RefactoringAction 1475243655869 TestRomanNumerals.java RENAME testRN_combine()=>void testRN_combineRN() METHOD
+RefactoringAction 1475243657879 TestRomanNumerals.java RENAME testRN_combineRN()=>void testRN_combineRNIII() METHOD
+EditAction 1475243667347 TestRomanNumerals.java 1322 13 15 12
