@@ -194,3 +194,8 @@ RefactoringAction 1475240923773 TestRomanNumerals.java RENAME testRN_splitII_Fir
 RefactoringAction 1475240925286 TestRomanNumerals.java RENAME testRN_splitII_FirstElementI=>void testRN_splitII_FirstElementI() METHOD
 EditAction 1475240956301 RomanNumerals.java 766 2 4 0
 EditAction 1475241044177 TestRomanNumerals.java 1301 12 13 12
+CompilationAction 1475241044388 TestRomanNumerals.java
+RefactoringAction 1475241105369 RomanNumerals.java ADD String FIELD
+RefactoringAction 1475241107381 RomanNumerals.java RENAME split=>String METHOD
+RefactoringAction 1475241115415 RomanNumerals.java RENAME splitRN()=>String METHOD
+EditAction 1475241280939 TestRomanNumerals.java 1304 12 13 12
