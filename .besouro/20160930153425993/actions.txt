@@ -128,3 +128,10 @@ RefactoringAction 1475240131182 TestRomanNumerals.java RENAME testRN_L_=>void te
 RefactoringAction 1475240134693 TestRomanNumerals.java RENAME testRN_L_50=>void testRN_L_50() METHOD
 EditAction 1475240201570 TestRomanNumerals.java 832 7 7 7
 EditAction 1475240201622 RomanNumerals.java 563 2 5 0
+UnitTestCaseAction 1475240201916 TestRomanNumerals.java OK
+UnitTestSessionAction 1475240201916 TestRomanNumerals.java OK
+RefactoringAction 1475240226842 TestRomanNumerals.java ADD void testRN_ FIELD
+RefactoringAction 1475240229353 TestRomanNumerals.java RENAME testRN_=>void testRN_C_ FIELD
+RefactoringAction 1475240232868 TestRomanNumerals.java RENAME testRN_C_=>void testRN_C_100 FIELD
+RefactoringAction 1475240233879 TestRomanNumerals.java RENAME testRN_C_100=>void testRN_C_100() METHOD
+EditAction 1475240252633 TestRomanNumerals.java 920 8 8 8
