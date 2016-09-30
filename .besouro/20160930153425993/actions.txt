@@ -51,3 +51,18 @@ UnitTestCaseAction 1475239333719 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475239333719 TestRomanNumerals.test_III_Three FAIL
 EditAction 1475239394426 TestRomanNumerals.java 475 3 3 3
 EditAction 1475239394477 RomanNumerals.java 235 1 2 0
+UnitTestCaseAction 1475239394764 TestRomanNumerals.java OK
+UnitTestSessionAction 1475239394765 TestRomanNumerals.java OK
+RefactoringAction 1475239432464 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475239433479 TestRomanNumerals.java RENAME test=>void test_ FIELD
+RefactoringAction 1475239440503 TestRomanNumerals.java RENAME test_I_One()=>void testR_I_One() METHOD
+RefactoringAction 1475239441520 TestRomanNumerals.java RENAME testR_I_One()=>void testRN_I_One() METHOD
+RefactoringAction 1475239444543 TestRomanNumerals.java RENAME test_II_Two()=>void testR_II_Two() METHOD
+RefactoringAction 1475239445558 TestRomanNumerals.java RENAME testR_II_Two()=>void testRN_II_Two() METHOD
+RefactoringAction 1475239447575 TestRomanNumerals.java RENAME test_III_Three()=>void testRN_III_Three() METHOD
+RefactoringAction 1475239450589 TestRomanNumerals.java RENAME test_=>void testRN_ FIELD
+RefactoringAction 1475239466103 TestRomanNumerals.java RENAME testRN_=>void testRN_VIII FIELD
+RefactoringAction 1475239468118 TestRomanNumerals.java RENAME testRN_VIII=>void testRN_VIII_ FIELD
+RefactoringAction 1475239472133 TestRomanNumerals.java RENAME testRN_VIII_=>void testRN_VIII_Eight FIELD
+RefactoringAction 1475239473147 TestRomanNumerals.java RENAME testRN_VIII_Eight=>void testRN_VIII_Eight() METHOD
+EditAction 1475239496779 TestRomanNumerals.java 572 4 4 4

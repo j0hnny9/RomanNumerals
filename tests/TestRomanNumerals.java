@@ -7,19 +7,20 @@ public class TestRomanNumerals {
 	RomanNumerals rn = new RomanNumerals();
 
 	
-	@Test
-	public void test_I_One() {
+	@Test public void testRN_I_One() {
 		assertEquals(1, rn.convertToInteger("I"));
 	}
 	
-	@Test
-	public void test_II_Two() {
+	@Test public void testRN_II_Two() {
 		assertEquals(2, rn.convertToInteger("II"));
 	}
 	
-	@Test
-	public void test_III_Three() {
+	@Test public void testRN_III_Three() {
 		assertEquals(3, rn.convertToInteger("III"));
+	}
+	
+	@Test public void testRN_VIII_Eight() {
+		assertEquals(8, rn.convertToInteger("VIII"));
 	}
 	
 	/*
