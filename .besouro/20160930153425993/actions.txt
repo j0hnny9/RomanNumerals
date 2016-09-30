@@ -212,3 +212,13 @@ UnitTestSessionAction 1475241556032 TestRomanNumerals.java FAIL
 RefactoringAction 1475241774199 RomanNumerals.java RENAME getArabNumForBasicRN(String)=>int getArabNumForBasicRN(chatr) METHOD
 RefactoringAction 1475241775710 RomanNumerals.java RENAME getArabNumForBasicRN(chatr)=>int getArabNumForBasicRN(char) METHOD
 EditAction 1475241817916 RomanNumerals.java 1021 3 5 0
+CompilationAction 1475241817988 RomanNumerals.java
+CompilationAction 1475241817989 RomanNumerals.java
+CompilationAction 1475241817989 RomanNumerals.java
+CompilationAction 1475241868739 RomanNumerals.java
+CompilationAction 1475241868777 RomanNumerals.java
+CompilationAction 1475241868777 RomanNumerals.java
+CompilationAction 1475241911322 RomanNumerals.java
+UnitTestCaseAction 1475241911581 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475241911582 TestRomanNumerals.java FAIL
+EditAction 1475241974187 RomanNumerals.java 1086 3 5 0
