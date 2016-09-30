@@ -5,13 +5,11 @@ public class RomanNumerals {
 			return getArabNumForBasicRN(romanNum.charAt(0));
 		} else if (romanNum.length() == 2) {
 			char[] digits = splitRN(romanNum);
-			if (getArabNumForBasicRN(digits[0]) < getArabNumForBasicRN(digits[1])) {
+			if (getArabNumForBasicRN(digits[0]) <= getArabNumForBasicRN(digits[1])) {
 				return getArabNumForBasicRN(digits[0]) + getArabNumForBasicRN(digits[1]);
 			} else {
 				return getArabNumForBasicRN(digits[1]) - getArabNumForBasicRN(digits[0]);
 			}
-			if (romanNum.equals("II"))
-				return 2;
 		} else {
 			if (romanNum.equals("III"))
 				return 3;
