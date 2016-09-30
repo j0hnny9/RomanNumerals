@@ -40,3 +40,10 @@ RefactoringAction 1475239296546 TestRomanNumerals.java REMOVE test() METHOD
 RefactoringAction 1475239300555 TestRomanNumerals.java ADD void test() METHOD
 RefactoringAction 1475239303579 TestRomanNumerals.java REMOVE test() METHOD
 EditAction 1475239314110 TestRomanNumerals.java 384 2 2 2
+UnitTestCaseAction 1475239314400 TestRomanNumerals.java OK
+UnitTestSessionAction 1475239314400 TestRomanNumerals.java OK
+RefactoringAction 1475239320121 TestRomanNumerals.java ADD void test() METHOD
+RefactoringAction 1475239325640 TestRomanNumerals.java RENAME test()=>void test_() METHOD
+RefactoringAction 1475239331154 TestRomanNumerals.java RENAME test_()=>void test_III_() METHOD
+RefactoringAction 1475239332668 TestRomanNumerals.java RENAME test_III_()=>void test_III_Three() METHOD
+EditAction 1475239333417 TestRomanNumerals.java 459 3 3 2

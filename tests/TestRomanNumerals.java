@@ -17,6 +17,11 @@ public class TestRomanNumerals {
 		assertEquals(2, rn.convertToInteger("II"));
 	}
 	
+	@Test
+	public void test_III_Three() {
+		fail("Not yet implemented");
+	}
+	
 	/*
 	@Test
 	public void test() {
