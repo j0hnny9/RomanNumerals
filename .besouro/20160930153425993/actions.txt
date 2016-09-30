@@ -30,3 +30,13 @@ UnitTestSessionAction 1475239143180 TestRomanNumerals.java FAIL
 EditAction 1475239184226 RomanNumerals.java 171 1 1 0
 CompilationAction 1475239184296 RomanNumerals.java
 EditAction 1475239205847 RomanNumerals.java 187 1 2 0
+UnitTestCaseAction 1475239206166 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475239206166 TestRomanNumerals.java FAIL
+UnitTestCaseAction 1475239266077 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475239266078 TestRomanNumerals.java FAIL
+RefactoringAction 1475239288020 TestRomanNumerals.java REMOVE test() METHOD
+RefactoringAction 1475239292532 TestRomanNumerals.java ADD void test() METHOD
+RefactoringAction 1475239296546 TestRomanNumerals.java REMOVE test() METHOD
+RefactoringAction 1475239300555 TestRomanNumerals.java ADD void test() METHOD
+RefactoringAction 1475239303579 TestRomanNumerals.java REMOVE test() METHOD
+EditAction 1475239314110 TestRomanNumerals.java 384 2 2 2

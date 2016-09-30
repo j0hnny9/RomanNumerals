@@ -6,10 +6,6 @@ public class TestRomanNumerals {
 	
 	RomanNumerals rn = new RomanNumerals();
 
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
 	
 	@Test
 	public void test_I_One() {
@@ -20,5 +16,12 @@ public class TestRomanNumerals {
 	public void test_II_Two() {
 		assertEquals(2, rn.convertToInteger("II"));
 	}
+	
+	/*
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+	*/
 
 }
