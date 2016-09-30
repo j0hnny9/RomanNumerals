@@ -148,3 +148,11 @@ EditAction 1475240332679 TestRomanNumerals.java 1008 9 9 9
 UnitTestCaseAction 1475240332951 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475240332951 TestRomanNumerals.java FAIL
 EditAction 1475240377598 RomanNumerals.java 656 2 5 0
+UnitTestCaseAction 1475240377878 TestRomanNumerals.java OK
+UnitTestSessionAction 1475240377878 TestRomanNumerals.java OK
+RefactoringAction 1475240388288 TestRomanNumerals.java ADD void tes FIELD
+RefactoringAction 1475240390801 TestRomanNumerals.java RENAME tes=>void testRN_ FIELD
+RefactoringAction 1475240417819 TestRomanNumerals.java RENAME testRN_=>void testRN_M_ FIELD
+RefactoringAction 1475240421335 TestRomanNumerals.java RENAME testRN_M_=>void testRN_M_1000 FIELD
+RefactoringAction 1475240423847 TestRomanNumerals.java RENAME testRN_M_1000=>void testRN_M_1000() METHOD
+EditAction 1475240437768 TestRomanNumerals.java 1098 10 10 10
