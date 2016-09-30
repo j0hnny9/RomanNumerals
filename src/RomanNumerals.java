@@ -5,6 +5,8 @@ public class RomanNumerals {
 			return 1;
 		else if (romanNum.equals("II"))
 			return 2;
+		else if (romanNum.equals("III"))
+			return 3;
 		
 		return 0; 
 	}
