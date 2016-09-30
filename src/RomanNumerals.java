@@ -14,8 +14,6 @@ public class RomanNumerals {
 		} else if (romanNum.length() == 3) {
 			return getArabNumForBasicRN(digits[0]) + getArabNumForBasicRN(digits[1])  + getArabNumForBasicRN(digits[2]); 
 		} else {
-			if (romanNum.equals("III"))
-				return 3;
 			else if (romanNum.equals("VIII"))
 				return 8;
 		}
