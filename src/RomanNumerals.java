@@ -28,7 +28,7 @@ public class RomanNumerals {
 			return 500;
 		else if (romanNum.equals("M"))
 			return 1000;
-		}
+		
 		return 0;
 	}
 }
