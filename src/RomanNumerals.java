@@ -1,15 +1,18 @@
 
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
+		char[] digits = splitRN(romanNum);
 		if (romanNum.length() == 1) {
 			return getArabNumForBasicRN(romanNum.charAt(0));
 		} else if (romanNum.length() == 2) {
-			char[] digits = splitRN(romanNum);
+			
 			if (getArabNumForBasicRN(digits[0]) < getArabNumForBasicRN(digits[1])) {
 				return getArabNumForBasicRN(digits[1]) - getArabNumForBasicRN(digits[0]);
 			} else {
 				return getArabNumForBasicRN(digits[0]) + getArabNumForBasicRN(digits[1]);
 			}
+		} else if (romanNum.length() == 3) {
+			return getArabNumForBasicRN(digits[0]) + getArabNumForBasicRN(digits[1])  + getArabNumForBasicRN(digits[3]); 
 		} else {
 			if (romanNum.equals("III"))
 				return 3;
