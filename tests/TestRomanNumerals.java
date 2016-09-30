@@ -31,6 +31,10 @@ public class TestRomanNumerals {
 		assertEquals(10, rn.convertToInteger("X"));
 	}
 	
+	@Test public void testRN_L_50() {
+		assertEquals(50, rn.convertToInteger("L"));
+	}
+	
 	/*
 	@Test
 	public void test() {
