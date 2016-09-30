@@ -4,6 +4,10 @@ public class RomanNumerals {
 		if (romanNum.length() == 1) {
 			return getArabNumForBasicRN(romanNum);
 		} else if (romanNum.length() == 2) {
+			char[] digits = splitRN(romanNum);
+			if (getArabNumForBasicRN(digits[0]) < getArabNumForBasicRN(digits[1])) {
+				return getArabNumForBasicRN(digits[0] + getArabNumForBasicRN(digits[1]));
+			}
 			if (romanNum.equals("II"))
 				return 2;
 		} else {
@@ -16,20 +20,20 @@ public class RomanNumerals {
 		return 0;
 	}
 	
-	public int getArabNumForBasicRN(String romanNum) {
-		if (romanNum.equals("I"))
+	public int getArabNumForBasicRN(char rnDigit) {
+		if (rnDigit.equals('I'))
 			return 1;
-		else if (romanNum.equals("V"))
+		else if (rnDigit.equals('V'))
 			return 5;
-		else if (romanNum.equals("X"))
+		else if (rnDigit.equals('X'))
 			return 10;
-		else if (romanNum.equals("L"))
+		else if (rnDigit.equals('L'))
 			return 50;
-		else if (romanNum.equals("C"))
+		else if (rnDigit.equals('C'))
 			return 100;
-		else if (romanNum.equals("D"))
+		else if (rnDigit.equals('D'))
 			return 500;
-		else if (romanNum.equals("M"))
+		else if (rnDigit.equals('M'))
 			return 1000;
 		
 		return 0;
