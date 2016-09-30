@@ -107,3 +107,9 @@ EditAction 1475239994601 TestRomanNumerals.java 659 5 5 5
 UnitTestCaseAction 1475239994898 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475239994899 TestRomanNumerals.java FAIL
 EditAction 1475240033248 RomanNumerals.java 470 2 5 0
+UnitTestCaseAction 1475240034443 TestRomanNumerals.java OK
+UnitTestSessionAction 1475240034443 TestRomanNumerals.java OK
+RefactoringAction 1475240064566 TestRomanNumerals.java ADD void testRN_III_Three()/2 METHOD
+RefactoringAction 1475240067579 TestRomanNumerals.java RENAME testRN_III_Three()/2=>void testRN_V_Three() METHOD
+RefactoringAction 1475240070588 TestRomanNumerals.java RENAME testRN_V_Three()=>void testRN_V_Five() METHOD
+EditAction 1475240079189 TestRomanNumerals.java 746 6 6 6

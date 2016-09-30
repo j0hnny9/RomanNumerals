@@ -19,6 +19,10 @@ public class TestRomanNumerals {
 		assertEquals(3, rn.convertToInteger("III"));
 	}
 	
+	@Test public void testRN_V_Five() {
+		assertEquals(5, rn.convertToInteger("V"));
+	}
+	
 	@Test public void testRN_VIII_Eight() {
 		assertEquals(8, rn.convertToInteger("VIII"));
 	}
