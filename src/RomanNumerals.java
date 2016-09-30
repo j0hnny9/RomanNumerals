@@ -35,4 +35,8 @@ public class RomanNumerals {
 		return 0;
 	}
 	
+	public char[] splitRN(String rn) {
+		return rn.toCharArray();
+	}
+	
 }
