@@ -1,6 +1,9 @@
 
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
-		return 1;
+		if (romanNum.equals("I"))
+			return 1;
+		else if (romanNum.equals("II"))
+			return 2;
 	}
 }
