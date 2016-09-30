@@ -17,6 +17,7 @@ public class RomanNumerals {
 		if (romanNum.equals("I"))
 			return 1;
 		else if (romanNum.equals("V"))
+			return 5;
 		else if (romanNum.equals("X"))
 			return 10;
 		
