@@ -62,7 +62,12 @@ public class TestRomanNumerals {
 	@Test
 	public void testRN_combineRNIII() {
 		char[] digits = {'I', 'I', 'I'};
-		assertEquals("III", rn.combineEqualDigits(digits));
+		LinkedList<LinkedList<String>> combDigitsList = rn.combineEqualDigits(digits);
+		String combDigits = "";
+		for (String s : combDigitsList.get(0)) {
+			combDigits += s;
+		}
+		assertEquals("III", combDigits);
 	}
 
 }
