@@ -269,3 +269,7 @@ RefactoringAction 1475243647847 TestRomanNumerals.java RENAME testRN_combineIII_
 RefactoringAction 1475243655869 TestRomanNumerals.java RENAME testRN_combine()=>void testRN_combineRN() METHOD
 RefactoringAction 1475243657879 TestRomanNumerals.java RENAME testRN_combineRN()=>void testRN_combineRNIII() METHOD
 EditAction 1475243667347 TestRomanNumerals.java 1322 13 15 12
+UnitTestCaseAction 1475243667615 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475243667615 TestRomanNumerals.java FAIL
+RefactoringAction 1475243716064 TestRomanNumerals.java ADD import java.util.LinkedList IMPORT
+EditAction 1475243843355 TestRomanNumerals.java 1431 13 16 13

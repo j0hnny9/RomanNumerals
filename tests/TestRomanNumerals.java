@@ -1,5 +1,7 @@
 import static org.junit.Assert.*;
 
+import java.util.LinkedList;
+
 import org.junit.Test;
 
 public class TestRomanNumerals {
@@ -59,7 +61,8 @@ public class TestRomanNumerals {
 	
 	@Test
 	public void testRN_combineRNIII() {
-		fail();
+		char[] digits = {'I', 'I', 'I'};
+		assertEquals("III", rn.combineEqualDigits(digits));
 	}
 
 }
