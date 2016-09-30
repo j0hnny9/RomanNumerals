@@ -1,10 +1,5 @@
 
 public class RomanNumerals {
-	
-	public char[] splitRN(String rn) {
-		return rn.toCharArray();
-	}
-	
 	public int convertToInteger(String romanNum) {
 		if (romanNum.length() == 1) {
 			return getArabNumForBasicRN(romanNum);
@@ -40,6 +35,8 @@ public class RomanNumerals {
 		return 0;
 	}
 	
-	
+	public char[] splitRN(String rn) {
+		return rn.toCharArray();
+	}
 	
 }

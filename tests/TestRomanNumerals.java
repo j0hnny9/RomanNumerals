@@ -52,8 +52,8 @@ public class TestRomanNumerals {
 	}
 	
 	@Test public void testRN_splitII_FirstElementI() {
-		String rn = "II";
-		char[] digits = rn.splitRN(rn);
+		String rnTwo = "II";
+		char[] digits = rn.splitRN(rnTwo);
 		assertEquals('I', digits[0]);
 	}
 	

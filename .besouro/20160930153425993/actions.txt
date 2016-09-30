@@ -204,3 +204,6 @@ CompilationAction 1475241281083 TestRomanNumerals.java
 RefactoringAction 1475241468672 RomanNumerals.java REMOVE splitRN(String) METHOD
 RefactoringAction 1475241471682 RomanNumerals.java ADD char METHOD
 EditAction 1475241476426 RomanNumerals.java 840 3 5 0
+CompilationAction 1475241476593 TestRomanNumerals.java
+CompilationAction 1475241555702 TestRomanNumerals.java
+EditAction 1475241555713 RomanNumerals.java 834 3 5 0
