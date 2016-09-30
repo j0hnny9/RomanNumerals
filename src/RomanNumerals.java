@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+import java.util.List;
 
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
@@ -36,6 +38,18 @@ public class RomanNumerals {
 	
 	public char[] splitRN(String rn) {
 		return rn.toCharArray();
+	}
+	
+	public LinkedList<LinkedList<String>> combineEqualDigits(char[] digits) {
+		LinkedList<LinkedList<String>> combDigitsList = new LinkedList<>();
+		LinkedList<String> combDigits = new LinkedList<>();
+		char prevChar = 'a';
+		for (char d : digits) {
+			if (d != prevChar) {
+				combDigits.add(String.valueOf(d));
+			}
+		}
+		return combDigitsList;
 	}
 	
 }

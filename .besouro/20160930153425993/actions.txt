@@ -244,3 +244,12 @@ CompilationAction 1475242353344 RomanNumerals.java
 UnitTestCaseAction 1475242353578 TestRomanNumerals.java OK
 UnitTestSessionAction 1475242353579 TestRomanNumerals.java OK
 EditAction 1475242575434 RomanNumerals.java 1057 3 5 0
+UnitTestCaseAction 1475242575718 TestRomanNumerals.java OK
+UnitTestSessionAction 1475242575718 TestRomanNumerals.java OK
+RefactoringAction 1475242663304 RomanNumerals.java ADD void combineEqualDigits() METHOD
+RefactoringAction 1475242678820 RomanNumerals.java RENAME combineEqualDigits()=>void charcombineEqualDigits() METHOD
+RefactoringAction 1475242680333 RomanNumerals.java RENAME charcombineEqualDigits()=>char METHOD
+RefactoringAction 1475242705912 RomanNumerals.java RENAME combineEqualDigits()=>char METHOD
+RefactoringAction 1475242783674 RomanNumerals.java ADD import java.util.List IMPORT
+RefactoringAction 1475242808800 RomanNumerals.java ADD import java.util.LinkedList IMPORT
+EditAction 1475243601439 RomanNumerals.java 1459 4 10 0
