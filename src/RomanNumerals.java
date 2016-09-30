@@ -46,10 +46,23 @@ public class RomanNumerals {
 		char prevChar = 'a';
 		for (char d : digits) {
 			if (d != prevChar) {
+				combDigits = new LinkedList<>();
+				combDigitsList.add(combDigits);
+			} else {
 				combDigits.add(String.valueOf(d));
 			}
 		}
 		return combDigitsList;
 	}
+	
+	public boolean canBeSubtracted(char digit) {
+		if (getArabNumForBasicRN(digit) == 5 || getArabNumForBasicRN(digit) == 50 || getArabNumForBasicRN(digit) == 500) {
+			return false;
+		} else {
+			return true;
+		}
+	}
+	
+	
 	
 }

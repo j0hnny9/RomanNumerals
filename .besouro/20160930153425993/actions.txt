@@ -273,3 +273,13 @@ UnitTestCaseAction 1475243667615 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475243667615 TestRomanNumerals.java FAIL
 RefactoringAction 1475243716064 TestRomanNumerals.java ADD import java.util.LinkedList IMPORT
 EditAction 1475243843355 TestRomanNumerals.java 1431 13 16 13
+UnitTestCaseAction 1475243843648 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475243843648 TestRomanNumerals.java FAIL
+RefactoringAction 1475243936822 RomanNumerals.java ADD boolean is FIELD
+RefactoringAction 1475243939832 RomanNumerals.java RENAME is=>boolean isSubt FIELD
+RefactoringAction 1475243956844 RomanNumerals.java RENAME isSubt=>boolean canSubt FIELD
+RefactoringAction 1475243958858 RomanNumerals.java RENAME canSubt=>boolean canBeSubt FIELD
+RefactoringAction 1475243961369 RomanNumerals.java RENAME canBeSubt=>boolean canBeSubtracted FIELD
+RefactoringAction 1475243964881 RomanNumerals.java RENAME canBeSubtracted=>boolean canBeSubtracted() METHOD
+RefactoringAction 1475243990945 RomanNumerals.java RENAME canBeSubtracted()=>boolean canBeSubtracted(char) METHOD
+EditAction 1475244562783 RomanNumerals.java 1764 5 11 0
