@@ -69,3 +69,22 @@ EditAction 1475239496779 TestRomanNumerals.java 572 4 4 4
 UnitTestCaseAction 1475239497057 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475239497058 TestRomanNumerals.java FAIL
 EditAction 1475239534385 RomanNumerals.java 284 1 2 0
+UnitTestCaseAction 1475239534664 TestRomanNumerals.java OK
+UnitTestSessionAction 1475239534664 TestRomanNumerals.java OK
+RefactoringAction 1475239620201 RomanNumerals.java ADD void getArabicNumver() METHOD
+RefactoringAction 1475239626713 RomanNumerals.java RENAME getArabicNumver()=>void getArabicNumber() METHOD
+RefactoringAction 1475239673738 RomanNumerals.java REMOVE getArabicNumber() METHOD
+RefactoringAction 1475239761340 RomanNumerals.java ADD int getBasi FIELD
+RefactoringAction 1475239762851 RomanNumerals.java RENAME getBasi=>int getBasicAra FIELD
+RefactoringAction 1475239764363 RomanNumerals.java RENAME getBasicAra=>int getBasic FIELD
+RefactoringAction 1475239768874 RomanNumerals.java RENAME getBasic=>int getBasicArabicNumber FIELD
+RefactoringAction 1475239771383 RomanNumerals.java RENAME getBasicArabicNumber=>int getArabicNumber FIELD
+RefactoringAction 1475239773892 RomanNumerals.java RENAME getArabicNumber=>int getArabicNumberfor FIELD
+RefactoringAction 1475239779404 RomanNumerals.java RENAME getArabicNumberfor=>int getArabicNumberforBasicRomanNu FIELD
+RefactoringAction 1475239783915 RomanNumerals.java RENAME getArabicNumberforBasicRomanNu=>int getArabicNumforBasicRomanNu FIELD
+RefactoringAction 1475239789426 RomanNumerals.java RENAME getArabicNumforBasicRomanNu=>int getArabicNumForBasicRomanNu FIELD
+RefactoringAction 1475239798438 RomanNumerals.java RENAME getArabicNumForBasicRomanNu=>int getArabicNumForBasRomanNu FIELD
+RefactoringAction 1475239799950 RomanNumerals.java RENAME getArabicNumForBasRomanNu=>int getArabicNumForBasicRomanNu FIELD
+RefactoringAction 1475239801959 RomanNumerals.java RENAME getArabicNumForBasicRomanNu=>int getArabicNumForBasicR FIELD
+RefactoringAction 1475239802970 RomanNumerals.java RENAME getArabicNumForBasicR=>int getArabicNumForBasicRN() METHOD
+EditAction 1475239857341 RomanNumerals.java 322 2 3 0
