@@ -12,7 +12,7 @@ public class RomanNumerals {
 				return getArabNumForBasicRN(digits[0]) + getArabNumForBasicRN(digits[1]);
 			}
 		} else if (romanNum.length() == 3) {
-			return getArabNumForBasicRN(digits[0]) + getArabNumForBasicRN(digits[1])  + getArabNumForBasicRN(digits[3]); 
+			return getArabNumForBasicRN(digits[0]) + getArabNumForBasicRN(digits[1])  + getArabNumForBasicRN(digits[2]); 
 		} else {
 			if (romanNum.equals("III"))
 				return 3;
