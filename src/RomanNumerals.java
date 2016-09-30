@@ -14,7 +14,7 @@ public class RomanNumerals {
 		} else if (romanNum.length() == 3) {
 			return getArabNumForBasicRN(digits[0]) + getArabNumForBasicRN(digits[1])  + getArabNumForBasicRN(digits[2]); 
 		} else {
-			else if (romanNum.equals("VIII"))
+			if (romanNum.equals("VIII"))
 				return 8;
 		}
 		
@@ -22,22 +22,16 @@ public class RomanNumerals {
 	}
 	
 	public int getArabNumForBasicRN(char rnDigit) {
-		if (rnDigit == 'I')
-			return 1;
-		else if (rnDigit == 'V')
-			return 5;
-		else if (rnDigit == 'X')
-			return 10;
-		else if (rnDigit == 'L')
-			return 50;
-		else if (rnDigit == 'C')
-			return 100;
-		else if (rnDigit == 'D')
-			return 500;
-		else if (rnDigit == 'M')
-			return 1000;
-		
-		return 0;
+		switch (rnDigit) {
+		case 'I': return 1;
+		case 'V': return 5;
+		case 'X': return 10;
+		case 'L': return 50;
+		case 'C': return 100;
+		case 'D': return 500;
+		case 'M': return 1000;
+		default: return 0;
+		}
 	}
 	
 	public char[] splitRN(String rn) {
