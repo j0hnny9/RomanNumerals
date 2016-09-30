@@ -200,3 +200,7 @@ RefactoringAction 1475241107381 RomanNumerals.java RENAME split=>String METHOD
 RefactoringAction 1475241115415 RomanNumerals.java RENAME splitRN()=>String METHOD
 EditAction 1475241280939 TestRomanNumerals.java 1304 12 13 12
 EditAction 1475241280992 RomanNumerals.java 834 3 5 0
+CompilationAction 1475241281083 TestRomanNumerals.java
+RefactoringAction 1475241468672 RomanNumerals.java REMOVE splitRN(String) METHOD
+RefactoringAction 1475241471682 RomanNumerals.java ADD char METHOD
+EditAction 1475241476426 RomanNumerals.java 840 3 5 0
