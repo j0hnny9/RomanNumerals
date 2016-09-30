@@ -171,3 +171,25 @@ EditAction 1475240596180 RomanNumerals.java 758 2 4 0
 UnitTestCaseAction 1475240597187 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475240597188 TestRomanNumerals.java FAIL
 EditAction 1475240633667 RomanNumerals.java 764 2 4 0
+UnitTestCaseAction 1475240633926 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475240633927 TestRomanNumerals.java FAIL
+RefactoringAction 1475240842194 RomanNumerals.java ADD void spl FIELD
+RefactoringAction 1475240845206 RomanNumerals.java RENAME spl=>void split FIELD
+RefactoringAction 1475240846717 RomanNumerals.java REMOVE split FIELD
+RefactoringAction 1475240847727 RomanNumerals.java ADD void get FIELD
+RefactoringAction 1475240854738 RomanNumerals.java REMOVE get FIELD
+RefactoringAction 1475240863766 RomanNumerals.java ADD String get FIELD
+RefactoringAction 1475240874776 RomanNumerals.java REMOVE get FIELD
+RefactoringAction 1475240891659 TestRomanNumerals.java ADD void testRN_ FIELD
+RefactoringAction 1475240898670 TestRomanNumerals.java RENAME testRN_=>void testRN_Sp FIELD
+RefactoringAction 1475240900182 TestRomanNumerals.java RENAME testRN_Sp=>void test FIELD
+RefactoringAction 1475240901189 TestRomanNumerals.java RENAME test=>void testRN FIELD
+RefactoringAction 1475240902201 TestRomanNumerals.java RENAME testRN=>void testRN_ FIELD
+RefactoringAction 1475240904214 TestRomanNumerals.java RENAME testRN_=>void testRN_split FIELD
+RefactoringAction 1475240912227 TestRomanNumerals.java RENAME testRN_split=>void testRN_splitII FIELD
+RefactoringAction 1475240914238 TestRomanNumerals.java RENAME testRN_splitII=>void testRN_splitII_ FIELD
+RefactoringAction 1475240919750 TestRomanNumerals.java RENAME testRN_splitII_=>void testRN_splitII_Fir FIELD
+RefactoringAction 1475240922260 TestRomanNumerals.java RENAME testRN_splitII_Fir=>void testRN_splitII_FirstElement FIELD
+RefactoringAction 1475240923773 TestRomanNumerals.java RENAME testRN_splitII_FirstElement=>void testRN_splitII_FirstElementI FIELD
+RefactoringAction 1475240925286 TestRomanNumerals.java RENAME testRN_splitII_FirstElementI=>void testRN_splitII_FirstElementI() METHOD
+EditAction 1475240956301 RomanNumerals.java 766 2 4 0
