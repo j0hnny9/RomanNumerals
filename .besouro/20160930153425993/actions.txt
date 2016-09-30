@@ -88,3 +88,10 @@ RefactoringAction 1475239799950 RomanNumerals.java RENAME getArabicNumForBasRoma
 RefactoringAction 1475239801959 RomanNumerals.java RENAME getArabicNumForBasicRomanNu=>int getArabicNumForBasicR FIELD
 RefactoringAction 1475239802970 RomanNumerals.java RENAME getArabicNumForBasicR=>int getArabicNumForBasicRN() METHOD
 EditAction 1475239857341 RomanNumerals.java 322 2 3 0
+CompilationAction 1475239857427 RomanNumerals.java
+RefactoringAction 1475239872091 RomanNumerals.java RENAME getArabicNumForBasicRN()=>int getArabicNumForBasicRN(String) METHOD
+CompilationAction 1475239881324 RomanNumerals.java
+UnitTestCaseAction 1475239881574 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475239881575 TestRomanNumerals.java FAIL
+RefactoringAction 1475239931728 RomanNumerals.java RENAME getArabicNumForBasicRN(String)=>int getArabNumForBasicRN(String) METHOD
+EditAction 1475239950083 RomanNumerals.java 423 2 5 0
