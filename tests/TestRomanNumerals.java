@@ -12,8 +12,13 @@ public class TestRomanNumerals {
 	}
 	
 	@Test
-	public void test_FirstRN_One() {
+	public void test_I_One() {
 		assertEquals(1, rn.convertToInteger("I"));
+	}
+	
+	@Test
+	public void test_II_Two() {
+		assertEquals(2, rn.convertToInteger("II"));
 	}
 
 }

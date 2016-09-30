@@ -10,3 +10,18 @@ RefactoringAction 1475238941817 TestRomanNumerals.java ADD void RomanNumerals() 
 RefactoringAction 1475238942835 TestRomanNumerals.java REMOVE RomanNumerals() METHOD
 EditAction 1475238987944 TestRomanNumerals.java 293 2 2 1
 EditAction 1475238988100 RomanNumerals.java 94 1 1 0
+CompilationAction 1475238989429 RomanNumerals.java
+CompilationAction 1475238996332 RomanNumerals.java
+UnitTestCaseAction 1475238996708 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475238996709 TestRomanNumerals.java FAIL
+RefactoringAction 1475239032120 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475239033138 TestRomanNumerals.java RENAME test=>void test_ FIELD
+RefactoringAction 1475239034655 TestRomanNumerals.java RENAME test_=>void test_F FIELD
+RefactoringAction 1475239038181 TestRomanNumerals.java RENAME test_F=>void test_ FIELD
+RefactoringAction 1475239041198 TestRomanNumerals.java RENAME test_FirstRN_One()=>void test__One() METHOD
+RefactoringAction 1475239042216 TestRomanNumerals.java RENAME test__One()=>void test_I_One() METHOD
+RefactoringAction 1475239115245 TestRomanNumerals.java RENAME test_=>void test_II_ FIELD
+RefactoringAction 1475239116762 TestRomanNumerals.java RENAME test_II_=>void test_II_T FIELD
+RefactoringAction 1475239117780 TestRomanNumerals.java RENAME test_II_T=>void test_II_Two FIELD
+RefactoringAction 1475239118798 TestRomanNumerals.java RENAME test_II_Two=>void test_II_Two() METHOD
+EditAction 1475239142893 TestRomanNumerals.java 374 3 3 2
