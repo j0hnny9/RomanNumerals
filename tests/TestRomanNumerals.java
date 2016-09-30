@@ -51,6 +51,11 @@ public class TestRomanNumerals {
 		assertEquals(1000, rn.convertToInteger("M"));
 	}
 	
+	@Test public void testRN_splitII_FirstElementI() {
+		String rn = "II";
+		assertEquals("I", rn.splitRN(rn));
+	}
+	
 	/*
 	@Test
 	public void test() {
