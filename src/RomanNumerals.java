@@ -16,6 +16,7 @@ public class RomanNumerals {
 	public int getArabNumForBasicRN(String romanNum) {
 		if (romanNum.equals("I"))
 			return 1;
+		else if (romanNum.equals("V"))
 		else if (romanNum.equals("X"))
 			return 10;
 		
