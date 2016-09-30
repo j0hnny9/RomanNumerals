@@ -95,3 +95,12 @@ UnitTestCaseAction 1475239881574 TestRomanNumerals.java FAIL
 UnitTestSessionAction 1475239881575 TestRomanNumerals.java FAIL
 RefactoringAction 1475239931728 RomanNumerals.java RENAME getArabicNumForBasicRN(String)=>int getArabNumForBasicRN(String) METHOD
 EditAction 1475239950083 RomanNumerals.java 423 2 5 0
+UnitTestCaseAction 1475239950361 TestRomanNumerals.java OK
+UnitTestSessionAction 1475239950361 TestRomanNumerals.java OK
+RefactoringAction 1475239963376 TestRomanNumerals.java ADD void test FIELD
+RefactoringAction 1475239964381 TestRomanNumerals.java RENAME test=>void testRN FIELD
+RefactoringAction 1475239972392 TestRomanNumerals.java RENAME testRN=>void testRN_X FIELD
+RefactoringAction 1475239974406 TestRomanNumerals.java RENAME testRN_X=>void testRN_X_ FIELD
+RefactoringAction 1475239975918 TestRomanNumerals.java RENAME testRN_X_=>void testRN_X_Ten FIELD
+RefactoringAction 1475239978931 TestRomanNumerals.java RENAME testRN_X_Ten=>void testRN_X_Ten() METHOD
+EditAction 1475239994601 TestRomanNumerals.java 659 5 5 5

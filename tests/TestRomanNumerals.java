@@ -23,6 +23,10 @@ public class TestRomanNumerals {
 		assertEquals(8, rn.convertToInteger("VIII"));
 	}
 	
+	@Test public void testRN_X_Ten() {
+		assertEquals(10, rn.convertToInteger("X"));
+	}
+	
 	/*
 	@Test
 	public void test() {
