@@ -1,14 +1,16 @@
 
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
-		if (romanNum.length() == 1) 
+		if (romanNum.length() == 1) {
 			return getArabNumForBasicRN(romanNum);
-		if (romanNum.equals("II"))
-			return 2;
-		else if (romanNum.equals("III"))
-			return 3;
-		else if (romanNum.equals("VIII"))
-			return 8;
+		} else if (romanNum.length() == 2) {
+			if (romanNum.equals("II"))
+				return 2;
+			else if (romanNum.equals("III"))
+				return 3;
+			else if (romanNum.equals("VIII"))
+				return 8;
+		}
 		
 		return 0;
 	}
