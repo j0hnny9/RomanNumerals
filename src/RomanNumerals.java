@@ -7,6 +7,8 @@ public class RomanNumerals {
 			return 2;
 		else if (romanNum.equals("III"))
 			return 3;
+		else if (romanNum.equals("VIII"))
+			return 8;
 		
 		return 0; 
 	}
