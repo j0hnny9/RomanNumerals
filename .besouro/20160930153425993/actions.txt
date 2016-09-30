@@ -47,3 +47,6 @@ RefactoringAction 1475239325640 TestRomanNumerals.java RENAME test()=>void test_
 RefactoringAction 1475239331154 TestRomanNumerals.java RENAME test_()=>void test_III_() METHOD
 RefactoringAction 1475239332668 TestRomanNumerals.java RENAME test_III_()=>void test_III_Three() METHOD
 EditAction 1475239333417 TestRomanNumerals.java 459 3 3 2
+UnitTestCaseAction 1475239333719 TestRomanNumerals.java FAIL
+UnitTestSessionAction 1475239333719 TestRomanNumerals.test_III_Three FAIL
+EditAction 1475239394426 TestRomanNumerals.java 475 3 3 3

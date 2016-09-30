@@ -19,7 +19,7 @@ public class TestRomanNumerals {
 	
 	@Test
 	public void test_III_Three() {
-		fail("Not yet implemented");
+		assertEquals(3, rn.convertToInteger("III"));
 	}
 	
 	/*
