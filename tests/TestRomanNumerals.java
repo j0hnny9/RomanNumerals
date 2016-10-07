@@ -59,8 +59,7 @@ public class TestRomanNumerals {
 		assertEquals('I', digits[0]);
 	}
 	
-	@Test
-	public void testRN_combineRNIII() {
+	@Test public void testRN_combineRNIII() {
 		char[] digits = {'I', 'I', 'I'};
 		LinkedList<LinkedList<String>> combDigitsList = rn.combineEqualDigits(digits);
 		String combDigits = "";
@@ -68,6 +67,42 @@ public class TestRomanNumerals {
 			combDigits += s;
 		}
 		assertEquals("III", combDigits);
+	}
+	
+	@Test public void testRN_combineRNVIII_FirstCombV() {
+		char[] digits = {'V', 'I', 'I', 'I'};
+		LinkedList<LinkedList<String>> combDigitsList = rn.combineEqualDigits(digits);
+		String combDigits = "";
+		for (String s : combDigitsList.get(0)) {
+			combDigits += s;
+		}
+		assertEquals("V", combDigits);
+	}
+	
+	@Test public void testRN_combineRNVIII_SecondCombIII() {
+		char[] digits = {'V', 'I', 'I', 'I'};
+		LinkedList<LinkedList<String>> combDigitsList = rn.combineEqualDigits(digits);
+		String combDigits = "";
+		for (String s : combDigitsList.get(1)) {
+			combDigits += s;
+		}
+		assertEquals("III", combDigits);
+	}
+	
+	@Test public void testRN_inputVIII_resEight() {
+		assertEquals(8, rn.convertToInteger("VIII"));
+	}
+	
+	@Test public void testRN_inputIV_resEight() {
+		assertEquals(4, rn.convertToInteger("IV"));
+	}
+	
+	@Test public void testRN_inputXVII_res17() {
+		assertEquals(17, rn.convertToInteger("XVII"));
+	}
+	
+	@Test public void testRN_inputIX_res_9() {
+		assertEquals(9, rn.convertToInteger("IX"));
 	}
 
 }

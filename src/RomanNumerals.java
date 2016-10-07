@@ -4,17 +4,23 @@ import java.util.List;
 public class RomanNumerals {
 	public int convertToInteger(String romanNum) {
 		char[] digits = splitRN(romanNum);
+		LinkedList<LinkedList<String>> equalCombinations = combineEqualDigits(digits);
+		
 		if (romanNum.length() == 1) {
 			return getArabNumForBasicRN(romanNum.charAt(0));
-		} else if (romanNum.length() == 2) {
-			
-			if (getArabNumForBasicRN(digits[0]) < getArabNumForBasicRN(digits[1])) {
+		} else if (equalCombinations.size() > 1) {
+			if (convertToInteger(equalCombinations.get(0)) < convertToInteger(getConcatStrings(equalCombinations.subList(1, equalCombinations.size()) ))) {
 				return getArabNumForBasicRN(digits[1]) - getArabNumForBasicRN(digits[0]);
 			} else {
 				return getArabNumForBasicRN(digits[0]) + getArabNumForBasicRN(digits[1]);
 			}
-		} else if (romanNum.length() == 3) {
-			return getArabNumForBasicRN(digits[0]) + getArabNumForBasicRN(digits[1])  + getArabNumForBasicRN(digits[2]); 
+		} else if (romanNum.length() > 2) {
+			equalCombinations = combineEqualDigits(digits);
+			int res = 0;
+			for (LinkedList<String> sl : equalCombinations) {
+				res += convertToInteger(getConcatString(sl));
+			}
+			return res;
 		} else {
 			if (romanNum.equals("VIII"))
 				return 8;
@@ -48,9 +54,9 @@ public class RomanNumerals {
 			if (d != prevChar) {
 				combDigits = new LinkedList<>();
 				combDigitsList.add(combDigits);
-			} else {
-				combDigits.add(String.valueOf(d));
+				prevChar = d;
 			}
+			combDigits.add(String.valueOf(d));
 		}
 		return combDigitsList;
 	}
@@ -61,6 +67,26 @@ public class RomanNumerals {
 		} else {
 			return true;
 		}
+	}
+	
+	public String getConcatString(List<String> l) {
+		String sRes = "";
+		for (String sElem : l) {
+			sRes += sElem;
+		}
+		
+		return sRes;
+	}
+	
+	public String getConcatStrings(List<List<String>> ls) {
+		String sRes = "";
+		for (List<String> sElements : ls) {
+			for (String s : sElements) {
+				sRes += s;
+			}
+		}
+		
+		return sRes;
 	}
 	
 	
